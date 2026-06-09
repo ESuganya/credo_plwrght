@@ -1,0 +1,47 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="6.209009">
+<testsuite name="Autowait.spec.ts" timestamp="2026-06-01T02:15:10.732Z" hostname="chromium" tests="3" failures="1" skipped="0" time="4.96" errors="0">
+<testcase name="Auto wait" classname="Autowait.spec.ts" time="4.956">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Autowait-Auto-wait-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Autowait-Auto-wait-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Autowait-Auto-wait-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="List Report" classname="Autowait.spec.ts" time="0.002">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Autowait-List-Report-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Fail" classname="Autowait.spec.ts" time="0.002">
+<properties>
+<property name="fail" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Autowait-Fail-chromium\trace.zip]]
+]]>
+</system-out>
+<failure message="Autowait.spec.ts:18:6 Fail" type="FAILURE">
+<![CDATA[  [chromium] › Autowait.spec.ts:18:6 › Fail ────────────────────────────────────────────────────────
+
+    Expected to fail, but passed.
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Autowait-Fail-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Autowait-Fail-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
