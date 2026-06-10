@@ -15,6 +15,7 @@ export default defineConfig({
    snapshotPathTemplate:'{testDir}/../visual/{arg}{ext}',
   //tester234
   //tester1
+  //New Lines
    //retries:3,
   expect: {timeout:2000},
   //timeout:40000,
