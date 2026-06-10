@@ -13,8 +13,9 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
    snapshotPathTemplate:'{testDir}/../visual/{arg}{ext}',
-   //tester234
-  //retries:3,
+  //tester234
+  //tester1
+   //retries:3,
   expect: {timeout:2000},
   //timeout:40000,
   testDir: './tests',
