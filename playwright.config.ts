@@ -13,7 +13,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
    snapshotPathTemplate:'{testDir}/../visual/{arg}{ext}',
-   //New Person
+   //Tester 2 changed
   //retries:3,
   expect: {timeout:2000},
   //timeout:40000,
