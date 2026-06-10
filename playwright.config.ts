@@ -13,8 +13,12 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
    snapshotPathTemplate:'{testDir}/../visual/{arg}{ext}',
-   //add new line from master
    //retries:3,
+   //add new line from master
+    //tester234
+  //tester1
+  //New Lines
+  //Add line from suganya
   expect: {timeout:2000},
   //timeout:40000,
   testDir: './tests',
