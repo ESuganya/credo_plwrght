@@ -1,5 +1,6 @@
 import { test, expect,Locator } from '@playwright/test'
 
+//adding
 test('Actions', async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
