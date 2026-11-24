@@ -3,7 +3,7 @@ import { test, expect,Locator } from '@playwright/test'
 test('Actions', async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
-    //ggg
+
 
     //TextBox / Input Box
 
