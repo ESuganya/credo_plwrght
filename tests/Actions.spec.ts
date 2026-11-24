@@ -4,7 +4,8 @@ test('Actions', async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 
-
+    //adding 
+    //conflicts
     //TextBox / Input Box
 
    /*  const nameTextbox:Locator=page.getByPlaceholder('Enter Name');
